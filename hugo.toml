@@ -1,4 +1,4 @@
-baseURL = 'https://fsetdeveloper.github.io/factgearblog/'
+baseURL = 'https://blog.factgear.com/'
 languageCode = 'en-us'
 title = 'FactGear.com'
 theme = "paper"
