@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'FactGear.com'
 theme = "paper"
 
-custom_css = ["css/styles.css"]
+googleAnalytics = 
 
 [module]
   [[module.imports]]
@@ -12,3 +12,8 @@ custom_css = ["css/styles.css"]
 [params]
   # color style
   color = 'light'                           # linen, wheat, gray, light    
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
