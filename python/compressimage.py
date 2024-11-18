@@ -8,6 +8,7 @@ from PIL import Image
 
 def compress_image(input_dir, quality=85, max_width=800, max_height=800):
     for filename in os.listdir(input_dir):
+        print(filename)
         if filename.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp')):
             img_path = os.path.join(input_dir, filename)
             img = Image.open(img_path)
